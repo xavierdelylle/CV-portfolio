@@ -1,0 +1,168 @@
+footer {
+    display: flex;
+    margin-top: auto;
+  }
+  
+  /*
+  ** Set up the experiment
+  */
+  .effect {
+    background-color: #e98512;
+    min-width: 35%;
+    height: 30em;
+    color: #FFFFFF;
+    flex-direction: column;
+    border-top-right-radius : 10px;
+    border-top-left-radius : 10px;
+  }
+  
+  .effect--top
+  {
+    padding: 0.5em 1em;
+    text-align: center;
+  }
+  
+  
+  
+  /*
+  ** Apply styles to the parent element
+  */
+  .Words {
+    width: 60%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-kerning: normal;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /*
+  ** Apply common styles to each line of text
+  */
+  .Words-line {
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .Words-line:nth-child(odd) {
+    -webkit-transform: skew(60deg, -30deg) scaleY(0.66667);
+            transform: skew(60deg, -30deg) scaleY(0.66667);
+  }
+  
+  .Words-line:nth-child(even) {
+    -webkit-transform: skew(0deg, -30deg) scaleY(1.33333);
+            transform: skew(0deg, -30deg) scaleY(1.33333);
+  }
+  
+  .Words-line:nth-child(1) {
+    left: 29px;
+  }
+  
+  .Words-line:nth-child(2) {
+    left: 58px;
+  }
+  
+  .Words-line:nth-child(3) {
+    left: 87px;
+  }
+  
+  .Words-line:nth-child(4) {
+    left: 116px;
+  }
+  
+  .Words-line:nth-child(5) {
+    left: 145px;
+  }
+  
+  .Words-line:nth-child(6) {
+    left: 174px;
+  }
+  
+  .Words-line:nth-child(7) {
+    left: 203px;
+  }
+  
+  /*
+  ** Fine-grained text styles
+  */
+  .Words-line p {
+    height: 50px;
+    line-height: 45px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+    vertical-align: top;
+    white-space: nowrap;
+  }
+  
+  .colorP {
+    color: #126FE9;
+    font-style: italic;
+  }
+  
+  /*
+  ** The hover interaction
+  */
+  .Words:hover p {
+    -webkit-transform: translate3d(0, -50px, 0);
+            transform: translate3d(0, -50px, 0);
+  }
+  
+  .Words:hover p {
+    -webkit-transform: translate3d(0, -50px, 0);
+            transform: translate3d(0, -50px, 0);
+  }
+  
+  
+  
+  .info {
+    position: relative;
+    background-color: #126fe9;
+    min-width: 4%;
+    height: 30em;
+    color: #FFFFFF;
+  }
+  
+  .infoTab{
+    position: absolute;
+    top: -2em;
+    height:2.5em;
+    width: 100%;
+    background-color:#126fe9;
+    border-top-right-radius : 10px;
+    border-top-left-radius : 10px;
+  }
+  
+  .infoTab2{
+    position: absolute;
+    margin-top: 2em;
+    left: -2em;
+    height:3em;
+    width: 2.2em;
+    background-color:#126fe9;
+    border-top-left-radius : 10px;
+    border-bottom-left-radius : 10px;
+  }
+  
+  .info p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: auto;
+  }
+
+  
+      .projects__img {
+          height: 30em;
+          width: 100%;
+      }
+  
