@@ -1,0 +1,58 @@
+header {
+    background-color: $background-elements;
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation {
+    color: $title;
+    font-family: 'JetBrains Mono', monospace;
+    padding-top: 0.5em;
+    padding-left: 2em;
+    h1 {
+        font-size: 2em;
+        padding-bottom: 0.5em;
+    }
+}
+
+.header--links {
+    padding-top: 0.5em;
+    padding-right: 2em;
+    img {
+        width: 3em;
+        height: 3em;
+        padding-left: 0.5em;
+    }
+}
+
+
+
+/*
+.picture {
+    width: 10em;
+    height: 11em;
+    border: 1px solid black;
+    border-radius: 30%;
+    float: right;
+    margin: 2em auto;
+}
+
+.pict {
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.picture img {
+    position: absolute;
+    right: -100%;
+    transition: all .5s;
+}
+
+.picture:hover img {
+    right: 0;
+}
+.imgfloat
+{
+	float:right;
+}
+*/

@@ -7,13 +7,11 @@ footer {
   ** Set up the experiment
   */
   .effect {
-    background: linear-gradient(#20303D,#3C454D);
+    background: linear-gradient($background,$background-elements);
     min-width: 35%;
     height: 30em;
-    color: #cad6c4;
+    color: $title;
     flex-direction: column;
-    border-top-right-radius : 10px;
-    border-top-left-radius : 10px;
   }
   
   .effect--top
@@ -103,7 +101,7 @@ footer {
   }
   
   .colorP {
-    color: #20303D;
+    color: $background;
     font-style: italic;
   }
   
@@ -124,10 +122,9 @@ footer {
   
   .info {
     position: relative;
-    background-color:  #3C454D;
+    background-color: $background-elements;
     min-width: 4%;
     height: 30em;
-    color: #cad6c4;
   }
   
   .infoTab{
@@ -135,7 +132,7 @@ footer {
     top: -2em;
     height:2.5em;
     width: 100%;
-    background-color: #3C454D;
+    background-color: $background-elements;
     border-top-right-radius : 10px;
     border-top-left-radius : 10px;
   }
@@ -146,7 +143,7 @@ footer {
     right: -2em;
     height:3em;
     width: 2.2em;
-    background-color: #3C454D;
+    background-color: $background-elements;
     border-top-right-radius : 10px;
     border-bottom-right-radius : 10px;
   }
@@ -158,11 +155,12 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     margin-left: auto;
+    padding-top: 1em;
+    padding-right: 0.3em;
+    color: $background-elements;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: $title;
   }
-
-  // .projects {
-  //   margin: 2em auto;
-  // }
   
   .projects__visual {
     width: 90%;

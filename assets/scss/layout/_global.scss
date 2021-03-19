@@ -14,43 +14,44 @@
 	font-family:'alexbrush';
     src: url('../fonts/AlexBrush-Regular.ttf');
 }
+
 body
 {
-    background-color:#20303D;
+    background-color: $background;
     font-family: 'pt_sansregular', Arial, serif;
     height: 100vh;
     display: flex;
     flex-direction: column;
 }
-/*
+
 .picture {
     width: 10em;
-    height: 10em;
-    border: 1px solid black;
-    border-radius: 30%;
-    float: right;
-    margin-top: 2em;
+    height: 11em;
+    border: 2px solid $background-elements;
+    margin: 2em;
+    &--before {
+			display: block;
+      img {
+        filter: grayscale(1);
+        width: 70%;
+        height: 70%;
+        display: block;
+        margin: 0.5em auto;
+        }
+      p {
+				color: $background-elements;
+        text-align: center;
+        }
+    }
+    &--after {
+			display: none;
+      img {
+        width: 100%;
+        height: 100%;
+        }  
+    }
+    
 }
-
-.pict {
-    padding-left: 2em;
-    padding-top: 2em;
-}
-
-.picture img {
-    position: absolute;
-    right: -100%;
-    transition: all .5s;
-}
-
-.picture:hover img {
-    right: 0;
-}
-.imgfloat
-{
-	float:right;
-}
-*/
 h2
 {
 	text-align:left;
@@ -58,9 +59,4 @@ h2
 .competences
 {
 	color:rgb(50 150 250);
-}
-h1
-{
-	font-family: 'alexbrush';
-	text-align:center;
 }

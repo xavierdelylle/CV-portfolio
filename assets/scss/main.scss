@@ -1,0 +1,12 @@
+// on force le charset en UTF-8
+@charset 'UTF-8';
+
+// on importe nos fichiers "abstraits" (variables, les mixins...)
+@import
+    'abstracts/variables',
+    'abstracts/mixins';
+
+@import
+    'layout/header',
+    'layout/global',
+    'layout/footer';
