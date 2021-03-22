@@ -24,11 +24,24 @@ body
     flex-direction: column;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
 .picture {
     width: 10em;
     height: 11em;
     border: 2px solid $background-elements;
     margin: 2em;
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      content: url(../../assets/images/XD_mini.jpg);
+      width: 100%;
+      height: 100%;
+    }
     &--before {
 			display: block;
       img {
@@ -42,21 +55,74 @@ body
 				color: $background-elements;
         text-align: center;
         }
-    }
-    &--after {
-			display: none;
-      img {
-        width: 100%;
-        height: 100%;
-        }  
-    }
-    
+    }    
 }
-h2
-{
-	text-align:left;
+
+.intro {
+  margin-top: 2em;
+  margin-left: 0;
+  padding-top: 1em;
+  width: 16.5em;
+  color: $title;
+  font-family: 'JetBrains Mono', monospace;
+  font-style: italic;
+  line-height: 1.2em;
 }
-.competences
-{
-	color:rgb(50 150 250);
+
+.education {
+  margin-top: 2em;
+  margin-left: 6em;
+  padding: 1em;
+  //border: 1px dashed $title;
+  //width: 16.5em;
+  color: $title;
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.5em;
+  h2
+  {
+    font-size: 1.5em;
+  }
+  a {
+    //text-decoration: none;
+    color: $title;
+    font-weight: bold;
+  }
+}
+
+.skills {
+  margin-top: 4em;
+  margin-left: 6em;
+  padding-top: 1em;
+  height: 3em;
+  border: 3px solid $title;
+  border-radius: 10px;
+  -webkit-transform: rotate(-3deg);
+   -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+     -o-transform: rotate(-3deg);
+        transform: rotate(-3deg);
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $title;
+    font-weight: bold;
+    padding: 2em;
+  }
+}
+
+.responsive {
+  width: 20em;
+  height: 15em;
+  margin-top: 2em;
+  margin-left: 3em;
+  margin-right: 2em;
+  img {
+    width: 100%;
+    height: 100%
+  }
+  p {
+    color: $title;
+    margin-left: 8em;
+    margin-top: -1em;
+  }
 }

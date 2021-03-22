@@ -15,7 +15,19 @@ header {
     }
 }
 
+.area {
+    display: flex;
+    padding-top: 0.5em;
+    color: $title;
+    font-family: 'JetBrains Mono', monospace;
+  img {
+    width: 3em;
+    height: 3em;
+  }
+}
+
 .header--links {
+    display: flex;
     padding-top: 0.5em;
     padding-right: 2em;
     img {
@@ -23,6 +35,22 @@ header {
         height: 3em;
         padding-left: 0.5em;
     }
+    .github {
+        img:hover {
+        content: url(../../assets/images/Github-logo-hover.png)
+        }
+    }
+    .linkedin {
+        img:hover {
+        content: url(../../assets/images/linked-logo2-hover.png)
+        }
+    }
+    .arobase {
+        img:hover {
+        content: url(../../assets/images/arobase-hover.png)
+        }
+    }
+    
 }
 
 
