@@ -33,7 +33,7 @@ main {
     width: 10em;
     height: 11em;
     border: 2px solid $background-elements;
-    margin: 2em;
+    margin: 2em 1em 2em 2em;
     a {
       text-decoration: none;
     }
@@ -60,7 +60,6 @@ main {
 
 .intro {
   margin-top: 2em;
-  margin-left: 0;
   padding-top: 1em;
   width: 16.5em;
   color: $title;
@@ -71,7 +70,6 @@ main {
 
 .education {
   margin-top: 2em;
-  margin-left: 6em;
   padding: 1em;
   //border: 1px dashed $title;
   //width: 16.5em;
@@ -91,7 +89,7 @@ main {
 
 .skills {
   margin-top: 4em;
-  margin-left: 6em;
+  //margin-left: 6em;
   padding-top: 1em;
   height: 3em;
   border: 3px solid $title;
@@ -102,6 +100,7 @@ main {
      -o-transform: rotate(-3deg);
         transform: rotate(-3deg);
   a {
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
     color: $title;
@@ -114,7 +113,7 @@ main {
   width: 20em;
   height: 15em;
   margin-top: 2em;
-  margin-left: 3em;
+  //margin-left: 3em;
   margin-right: 2em;
   img {
     width: 100%;
