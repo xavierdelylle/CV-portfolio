@@ -1,7 +1,11 @@
 header {
     background-color: $background-elements;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    @include tablet{
+      justify-content: space-between;
+    }
 }
 
 .presentation {
@@ -13,27 +17,47 @@ header {
         font-size: 2em;
         padding-bottom: 0.5em;
     }
+    @include tablet {
+      font-size: 0.7em;
+      h1 {
+          font-size: 1.2em;
+      }
+    }
+    @include tabland {
+      font-size: 1em;
+      h1 {
+          font-size: 2em;
+      }
+    }
 }
 
 .area {
     display: flex;
     padding-top: 0.5em;
+    padding-left: 0.5em;
     color: $title;
     font-family: 'JetBrains Mono', monospace;
-  img {
-    width: 3em;
-    height: 3em;
-  }
+    img {
+        width: 3em;
+        height: 3em;
+    }
+    @include tablet {
+        font-size: 0.7em;
+        padding-left: 0;
+    }
+    @include tabland {
+        font-size: 1em;
+    }
 }
 
 .header--links {
     display: flex;
-    padding-top: 0.5em;
+    margin-top: 1em;
     padding-right: 2em;
     img {
-        width: 3em;
-        height: 3em;
-        padding-left: 0.5em;
+        width: 2em;
+        height: 2em;
+        padding-left: 1em;
     }
     .github {
         img:hover {
@@ -50,37 +74,21 @@ header {
         content: url(../../assets/images/arobase-hover.png)
         }
     }
-    
-}
 
-
-
-/*
-.picture {
-    width: 10em;
-    height: 11em;
-    border: 1px solid black;
-    border-radius: 30%;
-    float: right;
-    margin: 2em auto;
+    @include tablet {
+      padding-top: 0.5em;
+      font-size: 0.7em;
+      img {
+        width: 2.5em;
+        height: 2.5em;
+        padding-left: 0.5em;
+      }
+    }
+    @include tabland {
+      font-size: 1em;
+      img {
+        width: 3em;
+        height: 3em;
+      }
+    }
 }
-
-.pict {
-    padding-left: 2em;
-    padding-top: 2em;
-}
-
-.picture img {
-    position: absolute;
-    right: -100%;
-    transition: all .5s;
-}
-
-.picture:hover img {
-    right: 0;
-}
-.imgfloat
-{
-	float:right;
-}
-*/
