@@ -1,1 +1,0 @@
-{"version":3,"sources":["assets/js/index.js"],"names":[],"mappings":";;;;;AAMA,aAHA,QAAA,aAGA,QAAA","file":"js.f100d2fb.js","sourceRoot":"..","sourcesContent":["// dans ce fichier js \"point d'entrée\"\n\n// on peut aller chercher des dépendances de node_modules\nimport 'reset-css';\n\n// on importe notre style custom (SCSS)\nimport '../scss/main.scss';"]}
