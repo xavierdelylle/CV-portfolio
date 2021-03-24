@@ -320,10 +320,10 @@ footer {
         padding: 0.5em 1em;
         text-align: center;
 	}
-	.tabmob {
+	.tabMob {
         display: block;
     }
-    .tabmob--skills {
+    .tabMob--skills {
         margin: 1em auto;
         padding: 0.5em;
         width: 5em;
@@ -337,23 +337,23 @@ footer {
               transform: rotate(-3deg);
         text-align: center;
     }
-    .tabmob--skills a {
+    .tabMob--skills a {
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         color: #cad6c4;
         font-weight: bold;
     }
-    .tabmob--responsive {
+    .tabMob--responsive {
         width: 12em;
         height: 9em;
         margin: 0.5em auto;
     }
-    .tabmob--responsive img {
+    .tabMob--responsive img {
         width: 100%;
         height: 100%
     }
-    .tabmob--responsive p {
+    .tabMob--responsive p {
         color: #cad6c4;
         margin-left: 4em;
         margin-top: -1em;
@@ -416,7 +416,7 @@ footer {
 	.effect {
         height: 30em;
 	}
-	.tabmob {
+	.tabMob {
         display: none;
 	}
 	.stair {
