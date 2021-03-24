@@ -280,14 +280,8 @@ footer {
         width: 3em;
         height: 3em;   
 	}
-	main {
-        justify-content: space-between;
-	}
 	.picture {
-        width: 7em;
-        height: 7.7em;
-        border: 2px solid #3C454D;
-        margin: 2em 0;
+        margin: 2em 3em 2em 10em;
         background-image: url(../../assets/images/XD_mini.jpg);
         background-size: contain;
         background-repeat: no-repeat;
@@ -296,11 +290,12 @@ footer {
         display: none;
 	}
 	.intro {
-        font-size: 0.7em;
+        font-size: 1em;
+        margin-right: 3em;
 	}
 	.education {
-        order: -1;
-        font-size: 0.7em;
+        font-size: 1.2em;
+        margin: auto;
 	}
 	.skills {
         display: none; 
@@ -327,7 +322,7 @@ footer {
         margin: 1em auto;
         padding: 0.5em;
         width: 5em;
-        height: 2em;
+        /* height: 2em; */
         border: 3px solid #cad6c4;
         border-radius: 10px;
         -webkit-transform: rotate(-3deg);
@@ -367,6 +362,10 @@ footer {
 }
 
 @media (min-width: 1200px) {
+    main {
+        justify-content: space-between;
+    }
+    
 	.picture {
         width: 10em;
         height: 11em;
