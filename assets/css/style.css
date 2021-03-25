@@ -196,11 +196,11 @@ footer {
 .info p {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
     margin-left: auto;
-    padding-top: 1em;
+    padding-top: 1.8em;
     padding-right: 0.3em;
     color: #3C454D;
     -webkit-text-stroke: 1px;
@@ -264,7 +264,11 @@ footer {
 	}
 	.info--tab2 {
         right: -2em;
-	}
+    }
+    .info p {
+        font-size: 2em;
+        padding-top: 1em;
+    }
 	.projects img {
         height: 18em;
 	}
